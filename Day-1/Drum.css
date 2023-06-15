@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Condensed:wght@300&display=swap");
+
+body {
+  background-image: url("https://img.freepik.com/free-photo/back-view-crowd-fans-watching-live-performance-music-concert-night-copy-space_637285-544.jpg?w=2000");
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+h1 {
+  /* color: white; */
+  font-size: 70px;
+  text-align: center;
+}
+
+
+.keys{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    width: 70%;
+    margin: auto;
+    gap: 20px;
+    user-select:none;
+   
+}
+
+.key{
+    border: 4px solid black;
+    font-size: 30px; 
+    width: 140px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+    transition: all 0.1s;
+    
+}
+.key>kbd{
+    color: #4285F4
+}
+.key > span{
+    color: green;
+}
+
+.playing{
+    border: 4px solid goldenrod;
+    transform: scale(1.1);
+    
+}
